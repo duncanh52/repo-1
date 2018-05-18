@@ -78,7 +78,7 @@
 </addon>
 <addon id="plugin.video.JokerSports"
        name="[COLORlime]Joker Sports[/COLOR]"
-       version="1.6"
+       version="2.0"
        provider-name="Maverick">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
