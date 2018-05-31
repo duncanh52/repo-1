@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.SkyNet"
-       name="SkyNet"
-       version="5.0"
+       name="[COLOR white]SkyNet[/COLOR]"
+       version="5.0.1"
        provider-name="SkyNet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -15,7 +15,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.resolveurl" version="5.0.00"/>
+	<import addon="script.module.resolveurl" version="5.0.00"/>
     <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
