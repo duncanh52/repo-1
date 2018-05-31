@@ -134,12 +134,12 @@
   </extension>
 </addon>
 <addon id="plugin.video.SkyNet"
-       name="SkyNet"
-       version="5.0"
+       name="[COLOR white]SkyNet[/COLOR]"
+       version="5.0.1"
        provider-name="SkyNet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
