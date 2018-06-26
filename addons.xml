@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.MaverickTV"
        name="[COLOR lime]Maverick TV[/COLOR]"
-       version="9.1.1"
+       version="9.1.2"
        provider-name="Maverick">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -18,6 +17,8 @@
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.resolveurl" version="5.0.00"/>
     <import addon="script.module.simplejson" /> 
+    <import addon="script.module.jokerHD" />
+    <import addon="script.module.ATFmobdro" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
     <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
@@ -30,20 +31,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Maverick TV</summary>
     <description lang="en">Maverick TV</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.program.MaverickWizard" name="Maverick Wizard" version="2.0.7" provider-name="Maverick TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Maverick Wizard</summary>
-    <description lang="en">Maverick Wizard allows you to get access to the latest Maverick Custom Builds.</description>
     <platform>all</platform>
   </extension>
 </addon>
